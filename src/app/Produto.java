@@ -1,6 +1,6 @@
 package app;
 
-public class Produto implements imprimivel {
+public class Produto implements Imprimivel {
     private String codigo;
     private String nome;
     private Double precoUnitario;

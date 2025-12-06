@@ -1,6 +1,6 @@
 package app;
 
-public interface imprimivel {
+public interface Imprimivel {
     String getCabecalho();
     String getDadosFormatados();
 }

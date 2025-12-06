@@ -4,11 +4,11 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pedido implements imprimivel {
+public class Pedido implements Imprimivel {
     private Integer numero;
     private LocalDate data;
     private Cliente cliente;
-    private List<item> listaItens;
+    private List<Item> listaItens;
 
     public Pedido(Integer numero, LocalDate data, Cliente cliente) {
         this.numero = numero;
@@ -27,7 +27,7 @@ public class Pedido implements imprimivel {
     public Cliente getCliente () {
         return cliente;
     }
-    public List<item> getListaItens () {
+    public List<Item> getListaItens () {
         return listaItens;
     }
 
@@ -41,7 +41,7 @@ public class Pedido implements imprimivel {
     public void setCliente (Cliente cliente) {
         this.cliente = cliente;
     }
-    public void setListaItens (List<item> listaItens) {
+    public void setListaItens (List<Item> listaItens) {
         this.listaItens = listaItens;
     }
 

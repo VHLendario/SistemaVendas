@@ -1,18 +1,18 @@
 package app;
 
-public class Cliente implements imprimivel {
-    private Integer cpf;
+public class Cliente implements Imprimivel {
+    private String cpf;
     private String nome;
     private String email; // corrigido para String
 
-    public Cliente(Integer cpf, String nome, String email) {
+    public Cliente(String cpf, String nome, String email) {
         this.cpf = cpf;
         this.nome = nome;
         this.email = email;
     }
 
     //getter
-    public Integer getCPF () {
+    public String getCPF () {
         return cpf;
     }
     public String getNome () {
@@ -23,7 +23,7 @@ public class Cliente implements imprimivel {
     }
 
     //setter
-    public void setCPF (Integer cpf) {
+    public void setCPF (String cpf) {
         this.cpf = cpf;
     }
     public void setNome (String nome) {
@@ -39,6 +39,6 @@ public class Cliente implements imprimivel {
     }
     @Override
     public String getDadosFormatados () {
-        return String.format("%d | %s | %s", cpf, nome, email);
+        return String.format("%s | %s | %s", cpf, nome, email);
     }
 }
