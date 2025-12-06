@@ -1,4 +1,4 @@
-package app;
+package contrato;
 
 public interface Imprimivel {
     String getCabecalho();

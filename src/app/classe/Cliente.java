@@ -1,6 +1,8 @@
-package app;
+package classe;
 
-public class Cliente implements Imprimivel {
+import contrato.Imprimivel;
+
+public class Cliente implements Imprimivel{
     private String cpf;
     private String nome;
     private String email; // corrigido para String

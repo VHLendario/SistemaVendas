@@ -1,4 +1,6 @@
-package app;
+package classe;
+
+import contrato.Imprimivel;
 
 public class Produto implements Imprimivel {
     private String codigo;
@@ -45,3 +47,5 @@ public class Produto implements Imprimivel {
         return String.format("%s | %s | %.2f", codigo, nome, precoUnitario);
     }
 }
+
+

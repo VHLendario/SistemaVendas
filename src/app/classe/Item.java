@@ -1,4 +1,4 @@
-package app;
+package classe;
 
 public class Item {
     private int quantidade; // corrigido para int
@@ -30,3 +30,4 @@ public class Item {
         return quantidade * produto.getPrecoUnitario();
     }
 }
+

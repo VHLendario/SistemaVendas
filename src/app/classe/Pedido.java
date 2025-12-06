@@ -1,8 +1,10 @@
-package app;
+package classe;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+
+import contrato.Imprimivel;
 
 public class Pedido implements Imprimivel {
     private Integer numero;
@@ -55,3 +57,4 @@ public class Pedido implements Imprimivel {
         return String.format("%d | %d | %s | %d", numero, data, cliente, listaItens);
     }
 }
+
