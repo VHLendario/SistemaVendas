@@ -54,7 +54,11 @@ public class Pedido implements Imprimivel {
 
     @Override
     public String getDadosFormatados () {
-        return String.format("%d | %d | %s | %d", numero, data, cliente, listaItens);
+         return String.format("%d | %s | %s | %d itens",
+            numero,
+            data.toString(),
+            cliente.getNome(),
+            listaItens.size());
     }
 }
 
