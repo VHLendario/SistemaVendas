@@ -1,8 +1,8 @@
-package relatorio;
-
-import contrato.Imprimivel;
+package relatorio.relatorio;
 
 import java.util.List;
+
+import contrato.Imprimivel;
 
 public class Relatorio<T extends Imprimivel>{
     public void imprimirLog(List<T>lista){

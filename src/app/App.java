@@ -8,7 +8,7 @@ import classe.Cliente;
 import classe.Item;
 import classe.Pedido;
 import classe.Produto;
-import relatorio.Relatorio;
+import relatorio.relatorio.Relatorio;
 
 public class App {
     public static void main(String[] args) {
