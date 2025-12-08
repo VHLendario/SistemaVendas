@@ -28,8 +28,8 @@ public class App {
 
         Pedido pedido = new Pedido(1, LocalDate.now(), cliente);
 
-        Item item1 = new Item(2, p1); // 2 mouses
-        Item item2 = new Item(1, p2); // 1 teclado
+        Item item1 = new Item(2, p1);
+        Item item2 = new Item(1, p2); 
 
         pedido.getListaItens().add(item1);
         pedido.getListaItens().add(item2);
