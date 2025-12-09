@@ -1,5 +1,3 @@
-package app;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +10,7 @@ import relatorio.relatorio.Relatorio;
 
 public class App {
     public static void main(String[] args) {
-        Produto p1 = new Produto("001", "Mouse Gaymer", 15000.00);
+        Produto p1 = new Produto("001", "Mouse Gamer", 15000.00);
         Produto p2 = new Produto("002", "Teclado Mecânico", 32000.00);
 
         List<Produto> listaProdutos = new ArrayList<>();
